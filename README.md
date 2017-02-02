@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.0'
+  compile 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.0_r1'
 }
 ```
 
@@ -41,7 +41,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.yusukeiwaki.android-widget:widget-extras:0.0.0'
+  compile 'com.github.yusukeiwaki.android-widget:widget-extras:0.0.0_r1'
 }
 ```
 
