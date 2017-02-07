@@ -21,5 +21,6 @@ android {
 dependencies {
   compile rootProject.ext.supportAppCompatV7
   compile project(':widget-fontawesome')
+  compile project(':widget-material-design-font')
   compile project(':widget-extras')
 }

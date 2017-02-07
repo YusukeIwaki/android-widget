@@ -41,6 +41,41 @@
         />
   </LinearLayout>
 
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="4dp"
+      android:text="MaterialDesignFontTextView"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="4dp"
+      >
+    <io.github.yusukeiwaki.android.widget.MaterialDesignFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_search"
+        android:textSize="24sp"
+        />
+
+    <io.github.yusukeiwaki.android.widget.DividerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+
+    <io.github.yusukeiwaki.android.widget.MaterialDesignFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_calendar"
+        android:textSize="24sp"
+        />
+  </LinearLayout>
+
   <io.github.yusukeiwaki.android.widget.DividerView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -73,6 +108,35 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:text="@string/fa_facebook"
+        android:textSize="24sp"
+        />
+  </LinearLayout>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="4dp"
+      android:text="MaterialDesignFontButton"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="4dp"
+      >
+    <io.github.yusukeiwaki.android.widget.MaterialDesignFontButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_search"
+        android:textSize="24sp"
+        />
+    <io.github.yusukeiwaki.android.widget.MaterialDesignFontButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_calendar"
         android:textSize="24sp"
         />
   </LinearLayout>
