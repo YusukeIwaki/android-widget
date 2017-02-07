@@ -6,13 +6,15 @@ Some Android widgets.
 
 ### FontAwesome
 
+using [FontAwesome](http://fontawesome.io/)
+
 ```
 repositories {
   maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-  compile 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.0_r1'
+  compile 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.0_r2'
 }
 ```
 
@@ -33,6 +35,38 @@ dependencies {
 <img src="https://cloud.githubusercontent.com/assets/11763113/22398432/ea5b7e38-e5cb-11e6-8ca4-a323350911b3.png" width=240/>
 
 
+### Material Design Iconic Font
+
+using [Material Design Iconic Font](https://zavoloklom.github.io/material-design-iconic-font/)
+
+```
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+  compile 'com.github.yusukeiwaki.android-widget:widget-material-design-font:0.0.0_r2'
+}
+```
+
+---
+
+`MaterialDesignFontTextView` and `MaterialDesignFontButton` can be used as below:
+
+```
+    <io.github.yusukeiwaki.android.widget.MaterialDesignFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/zmdi_search"
+        android:textSize="24sp"
+        />
+```
+
+**Remark** each icon name has `zmdi_` prefix.
+
+<img src="https://cloud.githubusercontent.com/assets/11763113/22696274/c07b8456-ed90-11e6-9a73-e43a1c1d7101.png" width=240/>
+
 ## extras
 
 ```
@@ -41,7 +75,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.yusukeiwaki.android-widget:widget-extras:0.0.0_r1'
+  compile 'com.github.yusukeiwaki.android-widget:widget-extras:0.0.0_r2'
 }
 ```
 
