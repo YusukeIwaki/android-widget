@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
   compile 'com.android.support:appcompat-v7:25.1.1' // you can use any version.
-  compile 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.0_r2'
+  compile 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.1'
 }
 ```
 
@@ -47,7 +47,7 @@ repositories {
 
 dependencies {
   compile 'com.android.support:appcompat-v7:25.1.1' // you can use any version.
-  compile 'com.github.yusukeiwaki.android-widget:widget-material-design-font:0.0.0_r2'
+  compile 'com.github.yusukeiwaki.android-widget:widget-material-design-font:0.0.1'
 }
 ```
 
@@ -77,7 +77,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.yusukeiwaki.android-widget:widget-extras:0.0.0_r2'
+  compile 'com.github.yusukeiwaki.android-widget:widget-extras:0.0.1'
 }
 ```
 
