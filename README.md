@@ -14,6 +14,7 @@ repositories {
 }
 
 dependencies {
+  compile 'com.android.support:appcompat-v7:25.1.1' // you can use any version.
   compile 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.0_r2'
 }
 ```
@@ -45,6 +46,7 @@ repositories {
 }
 
 dependencies {
+  compile 'com.android.support:appcompat-v7:25.1.1' // you can use any version.
   compile 'com.github.yusukeiwaki.android-widget:widget-material-design-font:0.0.0_r2'
 }
 ```
@@ -97,4 +99,4 @@ DividerView can be used as below:
 ```
 
 * The default thickness is `1dp`
-* The color is `colorControlNormal` with alpha=40%
+* The color is `colorControlNormal` (or textColorSecondary for API<21) with alpha=40%

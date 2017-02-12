@@ -19,6 +19,7 @@ package io.github.yusukeiwaki.android.widget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 import io.github.yusukeiwaki.widget_extras.R;
@@ -55,7 +56,7 @@ public class DividerView extends FrameLayout {
 
     int color = Color.GRAY;
     TypedArray array2 = context.getTheme().obtainStyledAttributes(new int[] {
-        R.attr.colorControlNormal
+        getColorControlNormalRes()
     });
     color = array2.getColor(0, color);
     array2.recycle();
@@ -64,5 +65,13 @@ public class DividerView extends FrameLayout {
     setAlpha(0.4f);
     setMinimumWidth(thickness);
     setMinimumHeight(thickness);
+  }
+
+  private int getColorControlNormalRes() {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+      return android.R.attr.colorControlNormal;
+    } else {
+      return android.R.attr.textColorSecondary;
+    }
   }
 }

@@ -19,5 +19,6 @@ android {
 }
 
 dependencies {
+  provided rootProject.ext.supportAppCompatV7
   compile project(':custom_font_widget_base')
 }

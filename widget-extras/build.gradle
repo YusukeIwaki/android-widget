@@ -35,5 +35,4 @@ android {
 }
 
 dependencies {
-  compile rootProject.ext.supportAppCompatV7
 }
