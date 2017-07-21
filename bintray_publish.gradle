@@ -14,20 +14,11 @@
  * limitations under the License.
  */
 
-apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
-
-android {
-  compileSdkVersion rootProject.ext.compileSdkVersion
-  buildToolsVersion rootProject.ext.buildToolsVersion
-
-  defaultConfig {
-    minSdkVersion rootProject.ext.minSdkVersion
-    targetSdkVersion rootProject.ext.compileSdkVersion
-  }
+publish {
+    userOrg = "yusukeiwaki"
+    groupId = "io.github.yusukeiwaki.android-widget"
+    artifactId = project.getProjectDir().name
+    publishVersion = "0.0.1"
+    desc = "android view widgets"
+    website = "https://github.com/YusukeIwaki/android-widget"
 }
-
-dependencies {
-}
-
-apply from: rootProject.file('bintray_publish.gradle')
