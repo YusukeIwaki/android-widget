@@ -1,4 +1,0 @@
-include ':sample', ':custom_font_widget_base'
-include ':widget-fontawesome'
-include ':widget-material-design-font'
-include ':widget-extras'
